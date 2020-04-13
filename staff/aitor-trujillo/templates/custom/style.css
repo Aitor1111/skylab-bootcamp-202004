@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+html {
+  background: #d9dad7;
+}
+
+.header {
+  padding: 2em 0 0 0;
+}
+
+.search-bar {
+  margin: 0 auto;
+  background: #ffffff;
+  width: 90%;
+  padding: 1em;
+  border-radius: 10em;
+  transition: box-shadow 300ms ease;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0.3em 0.3em 1.5em 0.5em rgba(0, 0, 0, 0.25);
+}
+.search-bar__input {
+  width: 100%;
+  border-style: none;
+  color: inherit;
+  font-size: 1em;
+  margin-left: 1em;
+}
+.search-bar__icon {
+  color: black;
+  margin-right: 1em;
+}
+
+.header__title {
+  width: 90%;
+  margin: 1em auto;
+  color: #3e4a61;
+  font-size: 1.2em;
+}
+.header__title span {
+  color: #c24d2c;
+}
+
+.widget {
+  margin: 2em 0;
+}
+.widget__title {
+  color: #3e4a61;
+  width: 90%;
+  margin: 0 auto;
+}
+.widget__slider {
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.card {
+  margin: 2em 0.5em;
+  width: 10em;
+  height: 10em;
+  border-radius: 20%;
+  box-shadow: 0.3em 0.3em 1.5em 0.5em rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 20%;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 20%;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.8em;
+  margin-top: -3.5em;
+  height: 40px;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
